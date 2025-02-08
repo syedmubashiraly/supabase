@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    background-color: #d1aa0c;
+    font-family: poppins;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.container {
+    /* margin: 0 auto; */
+    max-width: 850px;
+    background-color: azure;
+    border-radius: 45px;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 50px;
+    left: 50;
+  
+}
+
+.row {
+    border-radius: 50px;
+    background-color: azure;
+    padding: 30px 35px;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: -1px;
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #d1aa0c;
+    background: transparent;
+}
+
+.form-control::placeholder {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 450;
+}
+.btn{
+    border-radius: 15px;
+    outline: none;
+    color: black;
+    box-shadow: rgba(0,0,0,1);
+    width: 100%;
+   padding: 8px;
+}
+.box,.button{
+    position: relative;
+    overflow: hidden;
+}
+.box  i{
+    position: absolute;
+    right: 30px;
+    top: 70%;
+    transform: translateY(-50%);
+}
+.button .btn i{
+    position: absolute;
+    left:41%;
+    top:27%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logout {
+    position:absolute;
+    top: 36px;
+    left: 650px;
+    margin-bottom: -18px;
+    /* display: flex;
+    align-self:fle; */
+}
+.logout .btn {
+width: 100px;
+padding: 7px 16px;
+border: 1px solid transparent;
+}
+.btn i{
+    position: absolute;
+    left:90px;
+    top: 12px;
+}
+.table{
+    position: relative;
+    top: 610px;
+    left: 200px;
+    border-radius: 20px;
+}
+/* .table {
+    width: 100%;
+    border-collapse: collapse; Removes double borders
+  } */
+  
+  .table th, td {
+    border: 1px solid #d1aa0c; 
+    padding: 10px;
+    text-align:center;
+
+  }
+  .table thead{
+    border: 2px solid #d1aa0c;
+  }
